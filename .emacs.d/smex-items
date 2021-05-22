@@ -1,0 +1,23 @@
+
+;; ----- smex-history -----
+(
+ load-file
+ dashboard-mode
+ vterm-module-compile
+ global-linum-mode
+ linum-mode
+ vterm
+ tool-bar-mode
+)
+
+;; ----- smex-data -----
+(
+ (compile . 2)
+ (tool-bar-mode . 1)
+ (vterm . 2)
+ (linum-mode . 1)
+ (global-linum-mode . 1)
+ (vterm-module-compile . 1)
+ (dashboard-mode . 1)
+ (load-file . 1)
+)

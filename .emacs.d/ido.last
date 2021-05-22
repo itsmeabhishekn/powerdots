@@ -1,0 +1,76 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/" . "goku/")
+ ("/" . "home/")
+ ("/home/goku/.config/" . "fish/")
+ ("/home/goku/code/" . "tmp/")
+ ("/home/goku/.oh-my-bash/themes/" . "sexy/")
+ ("/home/goku/.oh-my-bash/" . "themes/")
+ ("/etc/" . "lightdm/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/goku/code/tmp/"
+ "/home/goku/.emacs.d/"
+ "/home/goku/code/java/"
+ "/home/goku/"
+ "/home/goku/.config/fish/"
+ "/home/goku/.oh-my-bash/themes/sexy/"
+ "/etc/lightdm/"
+ "/sudo::/etc/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "sample.java"
+ "config.el"
+ "init.el"
+ "config.org"
+ "Ascendingorder.java"
+ "Ascord.java"
+ "Evenodd.java"
+ "data.txt"
+ "config.fish"
+ ".bashrc"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/goku/code/tmp/" (24743 50471 169470 911000) "Evenodd.class" "Ascord.java" "../" "./" "Evenodd.java")
+
+ ("/home/goku/.emacs.d/" (24743 61470 710646 540000) "elpa/" "#init.el#" "../" "img/" "init.el~" "transient/" "auto-save-list/" "projectile-bookmarks.eld" "./" "recentf" "ido.last" "init.el" "smex-items" "config.el")
+
+ ("/home/goku/" (24743 56809 597476 596000) ".emacs.d/" "Downloads/" "Videos/" "Music/" ".osh-update" ".xprofile" "Templates/" ".fehbg" "data.txt" ".oh-my-bash/" ".Xauthority" "../" "Public/" "Desktop/" ".viminfo" ".sdirs" ".icons/" ".cache/" ".xsession-errors" ".config/" ".gnupg/" ".bash_logout" "2021-05-21-211912_923x802_scrot.png" ".bashrc.bk" ".xsession-errors.old" ".bash_history" "code/" ".cargo/" ".viminfo.tmp" "practice/" ".gtkrc-2.0" ".bash_profile" "./" ".mozilla/" ".local/" ".ICEauthority" ".bashrc" "VirtualBox VMs/" "Pictures/" "Documents/" ".authinfo" ".dmrc")
+
+ ("~/code/java/" (24741 13557 746350 609000) "Palindrome.java" "Numbername.java" "../" "Positive.java" "Largest_Number.java" "Ascendingorder.java" "Prime.java" "fiveprograms/" "./" "Factorial.java" "Largest.java" "Sum_Average.java" "Evenodd.java")
+
+ ("/home/goku/code/" (24743 36882 32175 583000) "bash/" "git/" "java/" "../" "tmp/" "javaprograms/" "./")
+
+ ("/home/goku/.config/fish/" (24743 32682 489081 625000) "../" "conf.d/" "config.fish" "functions/" "./" "fish_variables")
+
+ ("/home/goku/code/java/" (24741 13557 746350 609000) "Palindrome.java" "Numbername.java" "../" "Positive.java" "Largest_Number.java" "Ascendingorder.java" "Prime.java" "fiveprograms/" "./" "Factorial.java" "Largest.java" "Sum_Average.java" "Evenodd.java")
+
+ ("/home/goku/.config/" (24743 32104 145781 303000) "cava/" "Thunar/" "bspwm/" "mpv/" "flameshot/" "../" "pulse/" "nautilus/" "QtProject.conf" "qBittorrent/" "sxhkd/" "polybar/" "user-dirs.locale" "user-dirs.dirs" "xfce4/" "kitty/" "fish/" "VirtualBox/" "./" "neofetch/" "dconf/" "mimeapps.list" "gtk-3.0/" "bpytop/")
+
+ ("/home/goku/.config/fish/functions/" (24743 31745 615801 679000) "../" "utils.fish" "export.fish" "./" "aliases.fish" "fish_prompt.fish" "z.fish")
+
+ ("/home/goku/code/javaprograms/" (24733 310 0 0) "matsym.java" "matsym.class" "Circle.class" "searchelem.java" "#matsym.java#" "sstudent.class" "search.class" "../" "searchelem.class" "mataddition.class" "./" "lab2.zip" "mataddition.java" "Circle.java" "sstudent.java")
+
+ ("/etc/lightdm/" (24740 54979 175931 383000) "users.conf" "../" "keys.conf" "lightdm-gtk-greeter.conf" "lightdm.conf" "./" "Xsession")
+
+ ("/home/goku/.oh-my-bash/themes/sexy/" (24741 7646 925994 295000) "sexy.theme.sh" "../" "sexy-dark.png" "./")
+
+ ("/home/goku/.oh-my-bash/themes/" (24739 32738 98494 425000) "zork/" "morris/" "brainy/" "rjorgenson/" "pete/" "modern-t/" "slick/" "dulcie/" "cooperkid/" "../" "luan/" "tonotdo/" "rainbowbrite/" "powerline-plain/" "powerline-naked/" "bobby-python/" "rana/" "bobby/" "sirup/" "iterate/" "base.theme.sh" "pro/" "cupcake/" "duru/" "binaryanomaly/" "standard/" "brunton/" "90210/" "tylenol/" "tonka/" "mbriggs/" "kitsune/" "envy/" "dos/" "modern/" "primer/" "font/" "emperor/" "colours.theme.sh" "simple/" "sexy/" "./" "mairan/" "clean/" "pure/" "zitron/" "powerline-multiline/" "doubletime/" "nwinkler_random_colors/" "garo/" "bakke/" "candy/" "powerline/" "demula/" "nwinkler/" "wanelo/" "minimal/" "purity/" "roderik/" "gallifrey/" "axin/" "THEMES.md" "agnoster/" "hawaii50/" "doubletime_multiline_pyonly/" "doubletime_multiline/" "n0qorg/")
+
+ ("/home/goku/.oh-my-bash/" (24739 32738 98494 425000) "aliases/" ".github/" "templates/" "../" "plugins/" ".gitignore" "img/" "custom/" "themes/" "lib/" "CONTRIBUTING.md" "cache/" ".git/" "./" "LICENSE.md" ".editorconfig" "tools/" "completions/" "CODE_OF_CONDUCT.md" "README.md" "log/" "oh-my-bash.sh")
+
+ ("/etc/" (24740 50987 345477 458000) "ld.so.conf" "makepkg.conf" "mke2fs.conf" "iproute2/" "security/" "mpd.conf" "ssh/" "locale.conf" "mkinitcpio.d/" "avahi/" "libnl/" "X11/" "alsa/" "login.defs" "apparmor.d/" "motd" "UPower/" "protocols" "audit/" "group-" "i3/" "mtab" "modprobe.d/" "hostname" "mpv/" "dkms/" "inputrc" "cifs-utils/" "localtime" "profile" "vconsole.conf" "passwd-" "profile.d/" "vdpau_wrapper.cfg" "machine-id" "../" "libinput/" "conf.d/" "NetworkManager/" "request-key.conf" "depmod.d/" "pulse/" "cron.weekly/" "nscd.conf" "libao.conf" "e2scrub.conf" "sensors3.conf" "nanorc" "group" "kernel/" "rc_maps.cfg" "trusted-key.key" "udisks2/" "sysctl.d/" "mkinitcpio.conf" "sudoers.d/" "initcpio/" "anacrontab" "resolv.conf" "bash.bash_logout" "libaudit.conf" "fuse.conf" "xdg/" "host.conf" "securetty" "passwd" "libva.conf" "udev/" "shadow" "locale.gen" "crypttab" "polkit-1/" "gtk-2.0/" "xattr.conf" "tmpfiles.d/" "gshadow-" "nginx/" "gai.conf" "default/" "environment" "netconfig" "rpc" "issue" "ssl/" "rhashrc" "fonts/" "modules-load.d/" ".updated" "lvm/" "ld.so.conf.d/" "sudo.conf" "systemd/" "pacman.d/" "keyutils/" "cron.d/" "lightdm/" "dunst/" "cron.deny" "papersize" "openldap/" "wgetrc" "sensors.d/" "./" "openmpi/" "services" "os-release" "cron.hourly/" "arch-release" "mime.types" "fstab" "xinetd.d/" "cron.daily/" "vbox/" "adjtime" "krb5.conf" "ld.so.cache" "vimrc" "nsswitch.conf" "ndctl/" "healthd.conf" "sudo_logsrvd.conf" "binfmt.d/" "grub.d/" "pam.d/" ".pwd.lock" "dconf/" "sudoers" "shadow-" "mdadm.conf" "skel/" "iptables/" "pacman.conf" "doas.conf" "bluetooth/" "shells" "mailcap" "wpa_supplicant/" "slsh.rc" "bindresvport.blacklist" "ImageMagick-7/" "hosts" "libblockdev/" "rc_keymaps/" "pinentry/" "cron.monthly/" "bash.bashrc" "dhcpcd.conf" "gtk-3.0/" "request-key.d/" "ts.conf" "pkcs11/" "ca-certificates/" "ethertypes" "libpaper.d/" "gshadow" "whois.conf")
+
+ ("/home/" (24738 43548 685864 806000) "../" "goku/" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
