@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	kitty
+        st	
 
 
 # program launcher
@@ -132,10 +132,10 @@ super + Print
 Print
         flameshot full -p ~/Pictures
 
-XF86AudioRaiseVolume
+alt + i
 	pactl -- set-sink-volume 0 +5% #increase sound volume
 
-XF86AudioLowerVolume
+alt + d
 	pactl -- set-sink-volume 0 -5% #decrease sound volume
 
 XF86AudioMute
@@ -154,6 +154,17 @@ alt + t
 
 alt + e
 	/usr/bin/emacs
+
+alt + c
+	/usr/bin/code
+
+alt + o
+        brightnessctl -d amdgpu_bl1 set +10%
+
+
+alt + s      
+        brightnessctl -d amdgpu_bl1 set 10%-
+
 
 super + w
         /usr/bin/firefox
